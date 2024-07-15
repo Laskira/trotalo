@@ -1,0 +1,23 @@
+.footer {
+  height: 218px;
+  background-color: #dee2e6;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #5c0cb8;
+}
+
+.footer-content {
+  margin-left: 15em;
+  margin-top: 1.5em;
+  width: 532px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4em;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: column;
+}

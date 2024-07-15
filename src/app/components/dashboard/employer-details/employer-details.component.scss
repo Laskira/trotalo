@@ -1,0 +1,67 @@
+.card-sesion {
+  width: 456px;
+  height: 270px;
+  border: 1px solid #c5cdd4;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f5;
+    padding: 10px 15px;
+    border-bottom: 1px solid #c5cdd4;
+
+    .header-left {
+      display: flex;
+      align-items: center;
+
+      i {
+        font-size: 24px;
+        color: #5c0cb8;
+        margin-right: 10px;
+      }
+
+      h3 {
+        font-size: 20px;
+        color: #5c0cb8;
+        margin: 0;
+      }
+    }
+
+    .header-right {
+      a {
+        font-size: 14px;
+        color: #5c0cb8;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .card-content {
+    padding: 26px 29px;
+
+    .item {
+      font-size: 14px;
+      display: grid;
+      grid-template-columns: 1fr 68%;
+      margin-bottom: 7px;
+
+      .label {
+        font-weight: 500;
+        color: #333;
+      }
+
+      .value {
+        color: #555;
+      }
+    }
+  }
+}
+
+.email-value {
+  color: #5c0cb8;
+}

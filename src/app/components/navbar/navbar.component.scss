@@ -1,0 +1,42 @@
+@import "../../../color.scss";
+
+.navbar {
+  height: 61px;
+  width: auto;
+  background-color: $primary;
+  color: $header-text;
+  display: flex;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.logo {
+  width: 135px;
+  height: 27.66px;
+  margin-left: 28px;
+  margin-top: 16px;
+}
+
+.opcions {
+  display: flex;
+  justify-content: center;
+  margin-left: 44px;
+}
+
+.menu-item {
+  padding: 22px 25px;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: $active;
+}
+
+.active {
+  background-color: $active;
+  color: $header-text;
+  width: 66px;
+}

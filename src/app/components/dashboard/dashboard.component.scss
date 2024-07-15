@@ -1,0 +1,25 @@
+@import "../../../color.scss";
+
+.dashboard-container {
+  padding: 17px 26px;
+  width: 100%;
+}
+
+.user-sesion-text {
+  font-weight: 500;
+  font-size: 28px;
+  color: $black;
+  line-height: 36.4px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.data-content {
+  display: grid;
+  gap: 2em;
+}
+
+.colum-content {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+}
